@@ -70,7 +70,7 @@
   justify-content: center;
   width: 100%;
   text-align: center;
-  margin-top: 0px;
+  margin-top: 10px;
 }
 
 .info-title {
@@ -84,7 +84,7 @@
   justify-content: space-around; /* Asegura que cada conjunto esté bien espaciado */
   align-items: center;
   width: 100%;
-  margin-top: 20px;
+  margin-top: 0px;
 }
 
 .column-set {
@@ -97,19 +97,18 @@
 .column1, .column {
   width: 100%;
   text-align: center;
-  margin-top: 60px;
-  color: black;+
-  font-family: "Times New Roman", Times, serif;
+  margin-top: -50px;
+  color: black;
+  font-family : "Times New Roman", Times, serif;
   flex: 2;
 }
 
 .column-image {
   width: 100px; /* Ajusta el tamaño de la imagen según sea necesario */
   height: auto;
-  margin-top: 10px; /* Espacio entre la columna y la imagen */
-  margin-bottom: 10px; /* Espacio entre la imagen y el texto o botón */
-  margin-top: 70px;
-  margin-bottom: 20px;
+  margin-top: 50px; /* Espacio entre la columna y la imagen */
+  margin-bottom: 100px; /* Espacio entre la imagen y el texto o botón */
+  
 }
 
 .column1 {
@@ -127,7 +126,7 @@
   padding: 60px;
   border-radius: 50px;
   box-shadow: 0 4px 8px rgba(224, 189, 189, 0.1);
-  max-width: 80%;
+  max-width: 90%;
   min-width: 1px;
 }
 
@@ -270,4 +269,3 @@
   justify-content: center;
   font-size: 24px;
 }
-

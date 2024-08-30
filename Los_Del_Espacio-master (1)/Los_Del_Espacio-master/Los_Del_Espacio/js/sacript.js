@@ -50,3 +50,21 @@ document.addEventListener('DOMContentLoaded', (event) => {
         });
     });
 });
+
+document.addEventListener('DOMContentLoaded', (event) => {
+    const buttons = document.querySelectorAll('.column-button2');
+    buttons.forEach(button => {
+        button.addEventListener('click', () => {
+            window.location.href = 'https://diefer269.github.io/Evuluaton/';
+        });
+    });
+});
+
+
+
+document.addEventListener('DOMContentLoaded', (event) => {
+    const gameButton = document.getElementById('game-button');
+    gameButton.addEventListener('click', () => {
+        window.location.href = 'https://diefer269.github.io/Evuluaton/';
+    });
+});
