@@ -63,37 +63,109 @@
   border-radius: 10px;
 }
 
-.content .section.section.gradient-blue p1 {
+.info-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  text-align: center;
+  margin-top: 0px;
+}
+
+.info-title {
   font-size: 30px;
   color: #ffffff;
-  height: 90%;
-  text-align:center;
-  
+  margin-left: 100px;
 }
 
-.content .section.gradient-blue .columns {
+.aligned-columns {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-around; /* Asegura que cada conjunto esté bien espaciado */
+  align-items: center;
   width: 100%;
-  height: 77%;
-  color: black;
-  font-size: 24px;
-  margin-top: 150px;
-  font-family: "Times New Roman", Times, serif;
-
+  margin-top: 20px;
 }
 
-.content .section.gradient-blue .column {
-  flex: 1;
-  margin: 0 10px;
-  background: linear-gradient(135deg, #45e281, #e2e612);
-  padding: 30px;
-  border-radius: 100px;
-  box-shadow: 0 4px 8px rgba(224, 189, 189, 0.1);
+.column-set {
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* Centra las columnas verticalmente */
+ 
+}
+
+.column1, .column {
+  width: 100%;
   text-align: center;
-  position: relative;
-  flex-wrap: wrap;
-  font-size: 50px;
+  margin-top: 60px;
+  color: black;+
+  font-family: "Times New Roman", Times, serif;
+  flex: 2;
+}
+
+.column-image {
+  width: 100px; /* Ajusta el tamaño de la imagen según sea necesario */
+  height: auto;
+  margin-top: 10px; /* Espacio entre la columna y la imagen */
+  margin-bottom: 10px; /* Espacio entre la imagen y el texto o botón */
+  margin-top: 70px;
+  margin-bottom: 20px;
+}
+
+.column1 {
+  margin-bottom: 10px;
+  background: linear-gradient(135deg, #45e281, #e2e612);
+  padding: 10px;
+  border-radius: 50px;
+  box-shadow: 0 4px 8px rgba(224, 189, 189, 0.1);
+  max-width: 55%;
+  min-width: 150px;
+}
+
+.column {
+  background: linear-gradient(135deg, #45e281, #e2e612);
+  padding: 60px;
+  border-radius: 50px;
+  box-shadow: 0 4px 8px rgba(224, 189, 189, 0.1);
+  max-width: 80%;
+  min-width: 1px;
+}
+
+.column-button {
+  margin-top: 15px;
+  padding: 10px 20px;
+  background-color: #45e281;
+  border: none;
+  border-radius: 25px;
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  max-width: 80%; /* Asegura que el botón esté dentro de la misma anchura que las columnas */
+  margin-top: 40px;
+}
+
+.column-button1 {
+  margin-top: 15px;
+  padding: 10px 20px;
+  background-color: #45e281;
+  border: none;
+  border-radius: 25px;
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  max-width: 80%; /* Asegura que el botón esté dentro de la misma anchura que las columnas */
+  margin-top: 40px;
+}
+
+
+.column-button:hover {
+  background-color: #3cb371;
+}
+
+.column-button1:hover {
+  background-color: #3cb371;
 }
 
 .content .section.gradient-blue {
